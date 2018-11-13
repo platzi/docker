@@ -1,0 +1,27 @@
+{
+  "name": "docker-testing",
+  "version": "0.0.1",
+  "description": "Simple node.js app for container linking testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gvilarino/docker-testing.git"
+  },
+  "author": "gvilarino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gvilarino/docker-testing/issues"
+  },
+  "homepage": "https://github.com/gvilarino/docker-testing#readme",
+  "dependencies": {
+    "express": "4.16.4",
+    "mongodb": "3.1.9"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.6"
+  }
+}
