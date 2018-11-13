@@ -6,7 +6,7 @@ WORKDIR /usr/src
 
 RUN npm install --only=production
 
-COPY ["*", "/usr/src/"]
+COPY [".", "/usr/src/"]
 
 RUN npm install --only=development
 
