@@ -1,8 +1,8 @@
-version: "3"
+version: "3.8"
 
 services:
   app:
-    image: platziapp
+    build: .
     environment:
       MONGO_URL: "mongodb://db:27017/test"
     depends_on:
