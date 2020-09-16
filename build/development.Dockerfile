@@ -4,11 +4,9 @@ COPY ["package.json", "package-lock.json", "/usr/src/"]
 
 WORKDIR /usr/src
 
-RUN npm install --only=production
+RUN npm install
 
 COPY [".", "/usr/src/"]
-
-RUN npm install --only=development
 
 EXPOSE 3000
 
